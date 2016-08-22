@@ -44,6 +44,7 @@ public class TicTacToe {
 	// i ako je validan ubacuje u igracu plocu
 	public static String potezPrvogIgraca(String str) {
 		String play;
+		System.out.println(str);
 		do {
 			play = sc.nextLine();
 			if (!provjeraUnosa(play)) {
@@ -58,6 +59,7 @@ public class TicTacToe {
 	// i ako je validan ubacuje u igracu plocu
 	public static String potezDrugogIgraca(String str) {
 		String play;
+		System.out.println(str);
 		do {
 			play = sc.nextLine();
 			if (!provjeraUnosa(play)) {
